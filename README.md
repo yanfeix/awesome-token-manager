@@ -23,5 +23,4 @@ Luhn Token Generator and Validator
     ```
       .\start.bat
     ```
-
 3. Navigate to `http://localhost:8080/`
