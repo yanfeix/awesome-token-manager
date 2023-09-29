@@ -17,7 +17,8 @@ Luhn Token Generator and Validator
 2. Run the application
 * On Mac /Linux/UNIX, run the following command
     ```bash
-     bash ./start.sh    ```
+     bash ./start.sh
+    ```
 * On Windows, run the following command
     ```
       .\start.bat
