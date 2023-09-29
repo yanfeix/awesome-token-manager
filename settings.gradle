@@ -1,0 +1,5 @@
+rootProject.name='awesome-token-manager'
+
+include 'generator'
+include 'validator'
+include 'frontend'

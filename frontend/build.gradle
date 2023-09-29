@@ -1,0 +1,21 @@
+plugins {
+    id "com.github.node-gradle.node" version "3.1.1"
+}
+
+node {
+    version = '16.20.2'
+    download = true
+    workDir = file("${project.projectDir}/nodejs")
+    npmWorkDir = file("${project.projectDir}/npm")
+    nodeModulesDir = file("${project.projectDir}")
+}
+
+task npmTest(type: NpmTask) {
+    args = ['test']
+}
+
+task npmStart(type: NpmTask) {
+    dependsOn 'npmSetup'
+    dependsOn 'npmInstall'
+    args = ['start']
+}

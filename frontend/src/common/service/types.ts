@@ -1,0 +1,1 @@
+export type LoadStatus = 'IDLE' | 'LOADING' | 'SUCCESS' | 'ERROR'
